@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "OldLondon";
+    src: url(fonts/OldLondon.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "playball";
+    src: url(fonts/playball.ttf) format('truetype');
+}
+
+body {
+    font-family: "Times New Roman",  serif;
+}
+
+a.zoom {
+    transition: all .1s ease-in-out;
+}
+
+a.zoom:hover {
+    transform: scale(1.2,1.2);
+}
+
+a.navbar-brand {  
+    font-family: "OldLondon", serif;
+    font-weight: normal;
+}
+
+.oldLondon {
+    font-family: "OldLondon", serif;
+}
+
+.playball {
+    font-family: "playball", serif;
+    font-size: 32;
+}
+
+.bg-grey {
+    background-color: #2F2F2F;
+}
+
+.article-text {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 22px;
+}
+
+
+.text-overflow-clamp {
+    /* this code clamps based on specified lines */
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+
+} 
+
+
+.dashboard-article-text {
+    font-size: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+    tex-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+}
+
+.hide-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+#unpublished-article-tab-pane {
+    height: 100px;
+}
+
+.hide-scroll-e {
+    overflow: hidden;
+    -ms-overflow-x: none;
+    scrollbar-width: none;
+}
+
+.list-unstyled {
+    list-style: none;
+}
